@@ -52,7 +52,7 @@ a:active {
     /* takes font from outer container*/
     font-family: inherit;
     /* styles background color, font color, and text decoration of button*/
-    background-color: #ae68ae;
+    background-color: #a75aa7;
     color: #fff !important;
     text-decoration: none;
     padding: 10px;
@@ -69,7 +69,7 @@ button {
     /* takes font from outer container*/
     font-family: inherit;
     /* styles background color, font color, and text decoration of button*/
-    background-color: #ae68ae;
+    background-color: #a75aa7;
     color: #fff !important;
     text-decoration: none;
     padding: 10px;
