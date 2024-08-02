@@ -206,6 +206,10 @@ button {
     text-align: center;
 }
 
+.grid__item a {
+    color: #ba7dba;
+}
+
 .grid__item:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
