@@ -195,7 +195,7 @@ button {
 }
 
 .grid__item {
-    background-color: #2b2b2b;
+    background-color: #a75aa7;
     -webkit-transition: -webkit-transform 0.3s ease;
     transition: -webkit-transform 0.3s ease;
     transition: transform 0.3s ease;
