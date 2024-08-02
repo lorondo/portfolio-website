@@ -10,7 +10,8 @@ body {
     font-weight:400;
     font-size: 16px;
     line-height: 1.6;
-    background-color: #D3D3D3;
+    background-color: #19123C;
+    color: #fff;
 }
 
 h1 {
@@ -29,11 +30,11 @@ h3 {
 }
 
 a {
-    color: #357b70;
+    color: #a350a3;
 }
 
 a:visited {
-    color: #05676e; 
+    color: #ff508a; 
 }
 
 a:hover, a:focus {
@@ -41,7 +42,7 @@ a:hover, a:focus {
 }
 
 a:active {
-   color: #489c79;
+   color: #c1436d;
 }
 
 .button {
@@ -51,7 +52,7 @@ a:active {
     /* takes font from outer container*/
     font-family: inherit;
     /* styles background color, font color, and text decoration of button*/
-    background-color: #357b70;
+    background-color: #a350a3;
     color: #fff !important;
     text-decoration: none;
     padding: 10px;
@@ -68,7 +69,7 @@ button {
     /* takes font from outer container*/
     font-family: inherit;
     /* styles background color, font color, and text decoration of button*/
-    background-color: #357b70;
+    background-color: #a350a3;
     color: #fff !important;
     text-decoration: none;
     padding: 10px;
