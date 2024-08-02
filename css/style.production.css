@@ -30,7 +30,7 @@ h3 {
 }
 
 a {
-    color: #a350a3;
+    color: #ae68ae;
 }
 
 a:visited {
@@ -52,7 +52,7 @@ a:active {
     /* takes font from outer container*/
     font-family: inherit;
     /* styles background color, font color, and text decoration of button*/
-    background-color: #a350a3;
+    background-color: #ae68ae;
     color: #fff !important;
     text-decoration: none;
     padding: 10px;
@@ -69,7 +69,7 @@ button {
     /* takes font from outer container*/
     font-family: inherit;
     /* styles background color, font color, and text decoration of button*/
-    background-color: #a350a3;
+    background-color: #ae68ae;
     color: #fff !important;
     text-decoration: none;
     padding: 10px;
