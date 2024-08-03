@@ -108,8 +108,9 @@ a:active {
 }
 
 .about-me-main, .contact-main {
-    margin: 0 auto;
-	text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-container {
