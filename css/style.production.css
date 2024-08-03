@@ -242,11 +242,6 @@ button {
     opacity: 1;
 }
 
-.web {
-    -webkit-animation: 4s word-color-change infinite alternate linear;
-            animation: 4s word-color-change infinite alternate linear;
-}
-
 .sun {
     -webkit-animation: 4s color-change infinite alternate linear;
             animation: 4s color-change infinite alternate linear;
@@ -260,30 +255,6 @@ button {
 .cloud-back {
     -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
             animation: 34s cloud-move-reverse infinite alternate linear;
-}
-
-@-webkit-keyframes word-color-change {
-    0% {
-        fill: #fff;
-    }
-    50% {
-        fill: #c1436d;
-    }
-    100% {
-        fill: #a75aa7;
-    }
-}
-
-@keyframes word-color-change {
-    0% {
-        fill: #fff;
-    }
-    50% {
-        fill: #c1436d;
-    }
-    100% {
-        fill: #a75aa7;
-    }
 }
 
 @-webkit-keyframes color-change {
