@@ -14,6 +14,30 @@ body {
     color: #fff;
 }
 
+.table-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%; /* Adjust the width as needed */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
 h1 {
     font-weight:700;
     font-size: 30px;
