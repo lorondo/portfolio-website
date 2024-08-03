@@ -200,6 +200,10 @@ a:active {
     opacity: 1;
 }
 
+.web {
+    animation: 4s word-color-change infinite alternate linear;
+}
+
 .sun {
     animation: 4s color-change infinite alternate linear;
 }
@@ -210,6 +214,18 @@ a:active {
 
 .cloud-back {
     animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+@keyframes word-color-change {
+    0% {
+        fill: var(--button-overlay-text-color);
+    }
+    50% {
+        fill: var(--active-color);
+    }
+    100% {
+        fill: var(--secondary-color);
+    }
 }
 
 @keyframes color-change {
