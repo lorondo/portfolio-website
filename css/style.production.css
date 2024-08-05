@@ -19,7 +19,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-    -ms-flex-pack: center;
+      -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -168,9 +168,7 @@ button:focus {
   display: grid;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
-  -webkit-column-gap: 10px;
-     -moz-column-gap: 10px;
-          column-gap: 10px; /* Optional: add space between forms */
+  gap: 10px; /* Optional: add space between forms */
   width: 300px; /* Optional: set a fixed width for the forms */
   margin: 0 auto;
 }
@@ -228,9 +226,7 @@ button:focus {
   display: grid;
   -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  -webkit-column-gap: 10px;
-     -moz-column-gap: 10px;
-          column-gap: 10px;
+  gap: 10px;
   padding: 20px;
 }
 
