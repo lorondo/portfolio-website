@@ -216,16 +216,29 @@ button:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   color: var(--button-overlay-text-color);
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
   justify-content: center;
-  opacity: 0.8;
+  padding: 20px;
   transition: opacity 0.3s ease;
+}
 
+.overlay p {
+  max-width: 80%;
+}
+
+.overlay a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .grid__item:hover .overlay {
