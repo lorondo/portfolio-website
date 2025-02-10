@@ -232,7 +232,7 @@ button:focus {
 }
 
 .overlay a {
-  display: block;
+  display: inline-block;
   color: #fff;
   text-decoration: none;
   padding: 10px 15px;
